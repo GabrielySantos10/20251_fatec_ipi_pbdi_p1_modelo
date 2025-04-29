@@ -80,7 +80,23 @@ CREATE TABLE alunos(
 -- ----------------------------------------------------------------
 -- 4 Salário versus estudos
 --escreva a sua solução aqui
-
+-- DO $$
+-- DECLARE
+-- cur_alunos_salario CURSOR FOR SELECT STUDANTID, SALARY, PREP_EXAM FROM alunos
+-- WHERE SALARY = 5 AND PREP_EXAM = 2;
+-- tupla RECORD;
+-- cont INTEGER := 0;
+-- BEGIN
+--     OPEN cur_alunos_salario;
+--     FETCH cur_alunos_salario INTO tupla;
+--     WHILE FOUND LOOP
+--         cont := cont + 1;
+--         FETCH cur_alunos_salario INTO tupla;
+--     END LOOP;
+--     CLOSE cur_alunos_salario;
+--     RAISE NOTICE 'a quantidade de alunos é %', cont;
+-- END;
+-- $$
 
 -- ----------------------------------------------------------------
 -- 5. Limpeza de valores NULL
