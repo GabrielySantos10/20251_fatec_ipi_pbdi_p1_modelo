@@ -1,8 +1,15 @@
 -- ----------------------------------------------------------------
 -- 1 Base de dados e criação de tabela
 --escreva a sua solução aqui
-
-
+CREATE TABLE alunos(
+	STUDANTID VARCHAR(50) PRIMARY KEY, 
+	MOTHER_EDU INT,
+	FATHER_EDU INT,
+	GRADE INT,
+	PREP_STUDY INT,
+	PREP_EXAM INT,
+	SALARY INT
+);
 -- ----------------------------------------------------------------
 -- 2 Resultado em função da formação dos pais
 --escreva a sua solução aqui
