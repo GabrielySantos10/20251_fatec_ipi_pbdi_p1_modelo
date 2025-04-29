@@ -7,9 +7,9 @@
 <br>
 
 | Nome completo | RA |
-|:--------------|:---|
-|                |     |
-|                |     |
-|                |     |
-|                |     |
-|                |     |
+|:----------------------------|:-----------------|
+| Gabriely Silva dos Santos   |  2041382411023   |
+| Jennyfer Oliveira dos Santos| 2041382411041    |
+| Murilo Jacyntho de Matos    |  2041382411030   |
+|                             |                  |
+|                             |                  |
